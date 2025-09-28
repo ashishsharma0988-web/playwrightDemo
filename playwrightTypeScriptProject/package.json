@@ -1,0 +1,23 @@
+{
+  "name": "playwrighttypescriptproject",
+  "version": "1.0.0",
+  "description": "This project demonstrates Playwright Test framework with TypeScript, using the Page Object Model, data-driven testing with CSV, and configuration via `config.json`.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "csv-parse": "^6.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
